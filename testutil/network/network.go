@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Jeongseup/denomservice/app"
+	"github.com/Jeongseup/denomchain/app"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/crypto/hd"

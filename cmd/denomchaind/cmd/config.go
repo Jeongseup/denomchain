@@ -3,7 +3,7 @@ package cmd
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Jeongseup/denomservice/app"
+	"github.com/Jeongseup/denomchain/app"
 )
 
 func initSDKConfig() {

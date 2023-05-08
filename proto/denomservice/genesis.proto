@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package denomchain.denomservice;
+
+import "gogoproto/gogo.proto";
+import "denomservice/params.proto";
+import "denomservice/denom.proto";
+
+option go_package = "github.com/Jeongseup/denomchain/x/denomservice/types";
+
+// GenesisState defines the denomservice module's genesis state.
+message GenesisState {
+           Params params    = 1 [(gogoproto.nullable) = false];
+  repeated Denom  denomList = 2 [(gogoproto.nullable) = false];
+}
+

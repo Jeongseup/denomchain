@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/Jeongseup/denomservice/app"
-	"github.com/Jeongseup/denomservice/cmd/denomserviced/cmd"
+	"github.com/Jeongseup/denomchain/app"
+	"github.com/Jeongseup/denomchain/cmd/denomchaind/cmd"
 )
 
 func main() {

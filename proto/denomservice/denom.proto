@@ -1,0 +1,12 @@
+syntax = "proto3";
+package denomchain.denomservice;
+
+option go_package = "github.com/Jeongseup/denomchain/x/denomservice/types";
+
+message Denom {
+  string index = 1; 
+  string port = 2; 
+  string channel = 3; 
+  string originDenom = 4; 
+}
+
