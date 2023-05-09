@@ -32581,7 +32581,7 @@ paths:
           format: int64
       tags:
         - Query
-  /denom/denomservice/denom:
+  /denomservice/denom:
     get:
       operationId: DenomchainDenomserviceDenomAll
       responses:
@@ -32708,7 +32708,7 @@ paths:
           type: boolean
       tags:
         - Query
-  /denom/denomservice/denom/{index}:
+  /denomservice/denom/{index}:
     get:
       summary: Queries a list of Denom items.
       operationId: DenomchainDenomserviceDenom
@@ -32754,7 +32754,7 @@ paths:
           type: string
       tags:
         - Query
-  /denom/denomservice/params:
+  /denomservice/params:
     get:
       summary: Parameters queries the parameters of the module.
       operationId: DenomchainDenomserviceParams

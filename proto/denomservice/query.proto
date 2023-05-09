@@ -15,17 +15,17 @@ service Query {
   
   // Parameters queries the parameters of the module.
   rpc Params (QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/denom/denomservice/params";
+    option (google.api.http).get = "/denomservice/params";
   
   }
   
   // Queries a list of Denom items.
   rpc Denom    (QueryGetDenomRequest) returns (QueryGetDenomResponse) {
-    option (google.api.http).get = "/denom/denomservice/denom/{index}";
+    option (google.api.http).get = "/denomservice/denom/{index}";
   
   }
   rpc DenomAll (QueryAllDenomRequest) returns (QueryAllDenomResponse) {
-    option (google.api.http).get = "/denom/denomservice/denom";
+    option (google.api.http).get = "/denomservice/denom";
   
   }
 }
